@@ -40,12 +40,10 @@ margin: auto;
 margin-top: 2rem;
 margin-bottom: 2rem;}
 
-.site_main_row{display: flex;
-flex-wrap: wrap;}
+.first_col-4, .second_col-4{display: flex;}
 
 .col-4{width: calc((100%/12)*4);
 height: 641px;
-background-color: aliceblue;
 border: #000000 2px dashed;}
 
 /*main*/
