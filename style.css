@@ -42,9 +42,8 @@ margin: auto;
 margin-top: 2rem;
 margin-bottom: 2rem;}
 
-.first_row, .second_row{display: flex;}
-
-.first_row{margin-bottom: 3rem;}
+.first_row, .second_row{display: flex;
+margin-bottom: 6rem;}
 
 .col-4{width: calc((100%/12)*4);
 height: 400px;}
@@ -91,6 +90,18 @@ gap: 4px;}
 .item3{background-image: url(./img/3.webp);}
 
 .item3:hover{background-image: url(./img/3b.webp);} /*serve per quando si passa con il mouse sopra cambia immagine*/
+
+.item4{background-image: url(./img/4.webp);}
+
+.item4:hover{background-image: url(./img/4b.webp);} /*serve per quando si passa con il mouse sopra cambia immagine*/
+
+.item5{background-image: url(./img/5.webp);}
+
+.item5:hover{background-image: url(./img/5b.webp);} /*serve per quando si passa con il mouse sopra cambia immagine*/
+
+.item6{background-image: url(./img/6.webp);}
+
+.item6:hover{background-image: url(./img/6b.webp);} /*serve per quando si passa con il mouse sopra cambia immagine*/
 
 /*main*/
 
