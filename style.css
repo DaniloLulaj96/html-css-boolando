@@ -54,6 +54,14 @@ border-radius: 1rem;
 background-size: cover;
 height: 400px;}
 
+.heart{position: relative;
+left: 393px;
+top: 18px;
+background-color: white;
+font-size: x-large;}
+
+.heart:hover{color: var(--red);}
+
 .cards{display: flex;
 gap: 4px;}
 
@@ -129,4 +137,10 @@ color: white;}
 .social_logo{display: flex;
 list-style: none;
 font-size: 12px;
-margin-top: 0.5rem;}
+margin-top: 0.5rem;
+gap: 4px;}
+
+.social_logo li{position: relative;
+bottom: 0.5rem;}
+
+/*footer*/
